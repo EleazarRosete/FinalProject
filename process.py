@@ -3,7 +3,7 @@ import person
 
 # Account {
 def Account():
-    choice = int(input("1. Sign In\n2. Register\n0. Exit\n-> "))
+    choice = int(input("\n1. Sign In\n2. Register\n0. Exit\n-> "))
     return choice
 
 
@@ -12,34 +12,27 @@ def login():
         isUserTrue = False
         isPassTrue = False
         global User
-        User = input("Enter your username: ")
+        User = input("\nEnter your username: ")
         global Pass
         Pass = input("Enter your password: ")
         for x in usernames:
             if x == User:
-
                 isUserTrue = True
-            else:
-                print("Username Does Not Exist!n\n")
-
         for x in passwords:
             if x == Pass:
                 isPassTrue = True
-            else:
-                print("Username Does Not Exist!n\n")
-
         if isUserTrue == True and isPassTrue == True:
-            print("Logged In Successfully!")
+            print("\n\"Logged In Successfully!\"")
             return True
         else:
-            print("Account Does Not Exist!\n")
+            print("\n\"Incorrect username or password!\"")
             return False
     else:
-        print("\nNo Account Yet!\n")
+        print("\nNo Account Yet!")
 
 
 def register():
-    setUsername = input("Enter a Username: ")
+    setUsername = input("\nEnter a Username: ")
     setPassword = input("Enter a Password: ")
     person.user(setUsername, setPassword)
     usernames.append(setUsername)
@@ -74,7 +67,7 @@ def showInfo():
 
 # Organizer {
 def option():
-    choice = int(input("================================================\nOptions\n1. Add Task\n2. Do Task\n3. "
+    choice = int(input("================================================\nOptions:\n1. Add Task\n2. Do Task\n3. "
                        "Finished Tasks\n4. Show User Info\n0. Exit\n-> "))
     return choice
 
@@ -83,28 +76,28 @@ def show():
     # TO DO
     ctr = 1
     print(
-        "================================================\nOverview\n================================================")
+        "\n================================================\n--------------------Overview--------------------\n================================================")
     print("Tasks:")
     if len(task) == 0:
-        print("Empty")
+        print("\"There's no task available!\"")
     else:
         for x in task:
             print(ctr, ". " + x)
             ctr += 1
     # IN PROGRESS
     ctr = 1
-    print("\nIn Progress:")
+    print("------------------------------------------------\nIn Progress:")
     if len(inProgress) == 0:
-        print("Empty")
+        print("\"There's no task in progress!\"")
     else:
         for x in inProgress:
             print(ctr, ". " + x)
             ctr += 1
     # FINISHED
     ctr = 1
-    print("\nDone:")
+    print("------------------------------------------------\nDone:")
     if len(done) == 0:
-        print("Empty")
+        print("\"You haven't done any task!\"")
     else:
         for x in done:
             print(ctr, ". " + x)
@@ -141,7 +134,7 @@ def reWriteTask():
             edit -= 1
             task[edit] = input("Enter new task: ")
     else:
-        print("No Task to Edit")
+        print("\"No Task to Edit\"")
 
 
 # Organizer -> Add Task-> Delete Task
