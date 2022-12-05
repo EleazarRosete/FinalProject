@@ -1,12 +1,13 @@
 import process
 
-print("\nTo-Do Organizer!\n")
+print("\nTO-DO ORGANIZER!")
 
 while True:
     choice = process.Account()
     match choice:
         case 1:
             isLoggedIn = process.login()
+
             while isLoggedIn:
                 if process.sizeOfList() == 0:
                     while True:
