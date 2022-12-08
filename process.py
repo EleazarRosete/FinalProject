@@ -3,8 +3,12 @@ import person
 
 # Account {
 def Account():
-    choice = int(input("\n1. Sign In\n2. Register\n0. Exit\n-> "))
-    return choice
+    try:
+        choice = int(input("\n1. Sign In\n2. Register\n0. Exit\n-> "))
+        return choice
+    except Exception:
+        print("\n\"Something Went Wrong!\"")
+        return -1
 
 
 def login():
@@ -37,7 +41,6 @@ def register():
     person.user(setUsername, setPassword)
     usernames.append(setUsername)
     passwords.append(setPassword)
-# }
 
 
 # Rank System
@@ -62,21 +65,26 @@ def showInfo():
     if len(done) != 0:
         person.stats(User, Pass, totalPoints, rank, done)
     else:
-        print("\nNo Task Done Yet!\n")
+        person.stats(User, Pass, totalPoints, rank, "None")
 
 
 # Organizer {
 def option():
-    choice = int(input("================================================\nOptions:\n1. Add Task\n2. Do Task\n3. "
-                       "Finished Tasks\n4. Show User Info\n0. Exit\n-> "))
-    return choice
+    try:
+        choice = int(input("================================================\nOptions:\n1. Add Task\n2. Do Task\n3. "
+                           "Finished Tasks\n4. Show User Info\n0. Exit\n-> "))
+        return choice
+    except Exception:
+        print("\n\"Something Went Wrong!\"")
+        return -1
 
 
 def show():
     # TO DO
     ctr = 1
     print(
-        "\n================================================\n--------------------Overview--------------------\n================================================")
+        "\n================================================\n--------------------Overview--------------------\n"
+        "================================================")
     print("Tasks:")
     if len(task) == 0:
         print("\"There's no task available!\"")
@@ -114,6 +122,7 @@ def sizeOfList():
 def AddTask():  # list of task
     todo = input("\nAdd a Task: ")
     task.append(todo)
+    print("\n\"Task Added!\"")
     return task
 
 
@@ -125,16 +134,19 @@ def reWriteTask():
             print(ctr, ". " + x)
             ctr += 1
         ctr = 1
-        edit = int(input("\nEnter the task number you want to edit: "))
-        if edit > len(task):
-            print("\nInvalid Input!\n")
-        elif edit < 0:
-            print("\nInvalid Input!\n")
-        else:
-            edit -= 1
-            task[edit] = input("Enter new task: ")
+        try:
+            edit = int(input("\nEnter the task number you want to edit: "))
+            if edit > len(task):
+                print("\n\"Invalid Input\"")
+            elif edit < 0:
+                print("\n\"Invalid Input\"")
+            else:
+                edit -= 1
+                task[edit] = input("Enter new task: ")
+        except Exception:
+            print("\n\"Something Went Wrong!\"")
     else:
-        print("\"No Task to Edit\"")
+        print("\n\"No Task to Edit!\"")
 
 
 # Organizer -> Add Task-> Delete Task
@@ -145,64 +157,74 @@ def deleteTask():
             print(ctr, ". " + x)
             ctr += 1
         ctr = 1
-        delete = int(input("\nEnter the task number you want to remove: "))
-        if delete > len(task):
-            print("\nInvalid Input!\n")
-        elif delete < 0:
-            print("\nInvalid Input!\n")
-        else:
-            delete -= 1
-            task.pop(delete)
+        try:
+            delete = int(input("\nEnter the task number you want to remove: "))
+            if delete > len(task):
+                print("\n\"Invalid Input\"")
+            elif delete < 0:
+                print("\n\"Invalid Input\"")
+            else:
+                delete -= 1
+                task.pop(delete)
+        except Exception:
+            print("\n\"Something Went Wrong!\"")
     else:
-        print("No Task to Remove")
+        print("\n\"No Task to Remove!\"")
 
 
 # Organizer -> In Progress
 def AddInProgress():
+    print("----------------------Task----------------------")
     if len(task) != 0:
         ctr = 1
         for x in task:
             print(ctr, ".", x)
             ctr += 1
         ctr = 1
-        index = int(input("Enter the task number you want to do: "))
-        if index > len(task):
-            print("\nInvalid Input!\n")
-        elif index < 0:
-            print("\nInvalid Input!\n")
-        else:
-            index -= 1
-            inProgress.append(task[index])
-            task.pop(index)
+        try:
+            index = int(input("Enter the task number you want to do: "))
+            if index > len(task):
+                print("\n\"Invalid Input\"")
+            elif index < 0:
+                print("\n\"Invalid Input\"")
+            else:
+                index -= 1
+                inProgress.append(task[index])
+                task.pop(index)
+        except Exception:
+            print("\n\"Something Went Wrong!\"")
     else:
-        print("No Task to Add in Progress")
+        print("\"No Task to Add in Progress!\"")
 
 
 # Organizer -> Remove Task
 def AddDone():
+    print("-------------------In Progress------------------")
     if len(inProgress) != 0:
         ctr = 1
         for x in inProgress:
             print(ctr, ".", x)
             ctr += 1
         ctr = 1
-        index = int(input("Enter the task number you already did: "))
-        print(index)
-        if index > len(inProgress):
-            print("\nInvalid Input!\n")
-        elif index < 0:
-            print("\nInvalid Input!\n")
-        else:
-            index -= 1
-            done.append(inProgress[index])
-            inProgress.pop(index)
-            global totalPoints
-            totalPoints = totalPoints + 250
-            Rank(totalPoints)
-
+        try:
+            index = int(input("Enter the task number you already did: "))
+            print(index)
+            if index > len(inProgress):
+                print("\n\"Invalid Input\"")
+            elif index < 0:
+                print("\n\"Invalid Input\"")
+            else:
+                index -= 1
+                done.append(inProgress[index])
+                inProgress.pop(index)
+                global totalPoints
+                totalPoints = totalPoints + 250
+                Rank(totalPoints)
+        except Exception:
+            print("\n\"Something Went Wrong!\"")
     else:
-        print("No Progress to Add in Done")
-# }
+        print("\"No Progress to Add in Done!\"")
+
 
 
 task = list()
