@@ -4,21 +4,26 @@ print("\nTO-DO ORGANIZER!")
 
 while True:
     choice = process.Account()
-    match choice:
-        case 1:
-            isLoggedIn = process.login()
-
-            while isLoggedIn:
-                if process.sizeOfList() == 0:
-                    while True:
-                        todo = process.AddTask()
-                        more = int(input("Do you want to add more task? \n1.[YES]   2.[NO]\n-> "))
-                        if more == 2:
-                            break
+    if choice == 1:
+        isLoggedIn = process.login()
+        while isLoggedIn:
+            if process.sizeOfList() == 0:
                 while True:
-                    process.show()
-                    choice = process.option()
-                    if choice == 1:
+                    try:
+                        more = int(input("\nDo you want to add task? \n1.[YES]   2.[NO]\n-> "))
+                        if more == 1:
+                            process.AddTask()
+                        elif more == 2:
+                            break
+                        elif more > 2 or more < 1:
+                            print("\n\"Invalid Input!\"")
+                    except Exception:
+                        print("\n\"Something Went Wrong!\"")
+            while True:
+                process.show()
+                choice = process.option()
+                if choice == 1:
+                    try:
                         editTask = int(input("\n1. Add a Task\n2. Re-Write a Task\n3. Remove a Task\n-> "))
                         if editTask == 1:
                             process.AddTask()
@@ -26,22 +31,30 @@ while True:
                             process.reWriteTask()
                         elif editTask == 3:
                             process.deleteTask()
+                        elif editTask > 3:
+                            print("\n\"Invalid Input\"")
                         else:
-                            print("\nInvalid Input\n")
-                    elif choice == 2:
+                            pass
+                    except Exception:
+                        print("\n\"Something Went Wrong!\"")
+                elif choice == 2:
                         process.AddInProgress()
-                    elif choice == 3:
+                elif choice == 3:
                         process.AddDone()
-                    elif choice == 4:
+                elif choice == 4:
                         process.showInfo()
-                    elif choice == 0:
-                        exit()
-                        break
-                    else:
-                        print("\nINVALID\n")
-        case 2:
-            process.register()
-        case 0:
-            break
-        case _:
-            print("Invalid Input")
+                elif choice == 0:
+                    exit()
+                    break
+                elif choice > 4:
+                    print("\n\"Invalid Input\"")
+                else:
+                    pass
+    elif choice == 2:
+        process.register()
+    elif choice == 0:
+        break
+    elif choice > 2:
+        print("\n\"Invalid Input\"")
+    else:
+        pass
