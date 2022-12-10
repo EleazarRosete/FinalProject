@@ -8,7 +8,7 @@
 
 > ## **Process.py**
 
-- #### dito yung about sa proces na file, kung ano lang agawin ng process.py
+- #### Have all the functions that manipulate the data/value from the user 
 
 > ## **Person.py**
 
