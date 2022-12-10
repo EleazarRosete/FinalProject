@@ -4,7 +4,7 @@
 
 > ## **Main.py**
 
-- #### dito yung about sa main na file, kung ano lang agawin ng main.py
+- #### will get all the method needed to run our system
 
 > ## **Process.py**
 
