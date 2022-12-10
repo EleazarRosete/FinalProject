@@ -4,7 +4,7 @@
 
 > ## **Main.py**
 
-- #### will get all the method needed to run our system
+- #### will get and manipulate all the functions needed to run the system
 
 > ## **Process.py**
 
