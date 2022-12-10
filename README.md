@@ -12,7 +12,7 @@
 
 > ## **Person.py**
 
-- #### dito yung about sa person na file, kung ano lang agawin ng person.py
+- #### Sets and Gets User's username and password as well as displaying the user's stat like points, ranks and the task's done.
 
 > ## **Instructions**
 - dito yung instructions diko alam kung anong instructions, siguro eh yung kung anong ilalagay ng user parang demo bago mag lagay ng instructions eh lalagayan muna ng "-"
