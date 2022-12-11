@@ -4,7 +4,7 @@
 
 > ## **Main.py**
 
-- #### will get manipulate all the functions needed to run the system
+- #### Will get manipulate all the functions needed to run the system
 
 > ## **Process.py**
 
@@ -17,13 +17,13 @@
 
 > ## **Instructions**
 
-  - 1. sign in
-  - 2. register
-  - 0. exit
+    - 1. sign in
+    - 2. register
+    - 0. exit
 
-    - Select Register to make an account if you don't have one.
+      - Select Register to make an account if you don't have one.
 
-    - Select Sign in if you'd already have an account.
+      - Select Sign in if you'd already have an account.
 
 The system will ask you if you want to add task or not
 
@@ -33,12 +33,12 @@ The system will ask you if you want to add task or not
 If you choose "No", An overview of the system will showup with different option to choose.
 
 If you choose "Yes", An overview will also showup but, it will show the task you input. 
-- Options :
-    - 1. Add Task
-    - 2. Do Task
-    - 3. Finished Task
-    - 4. Show User Info
-    - 0. Exit
+  - Options :
+      - 1. Add Task
+      - 2. Do Task
+      - 3. Finished Task
+      - 4. Show User Info
+      - 0. Exit
 
 And, if you don't want to do or add task anymore you can just exit the program with ease.
   
