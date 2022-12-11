@@ -28,8 +28,8 @@ The system will ask you if you want to add task or not
 -yes
 -no
   
-  If you choose "No", An overview of the system will showup with different option to choose.
-  If you choose "Yes", An overview will also showup but, it will show the task you input. 
+ If you choose "No", An overview of the system will showup with different option to choose.
+ If you choose "Yes", An overview will also showup but, it will show the task you input. 
   
 And, if you don't want to do or add task anymore you can just exit the program with ease.
   
