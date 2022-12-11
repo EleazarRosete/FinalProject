@@ -20,14 +20,18 @@
      exit
 
 -Select Register to make an account if you don't have one.
+
 -Select Sign in if you'd already have an account.
 
 The system will ask you if you want to add task or not
+
 -yes
 -no
   
-  if you choose "No", An overview of the system will showup with different option to choose.
-  if you choose "Yes", An overview will also showup but, it will show the task you input. 
+  If you choose "No", An overview of the system will showup with different option to choose.
+  If you choose "Yes", An overview will also showup but, it will show the task you input. 
+  
+And, if you don't want to do or add task anymore you can just exit the program with ease.
   
       
 - ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
