@@ -15,16 +15,16 @@
 - #### Holds the User's username and password as well as displaying the user's stats like user name, user password, user points, user ranks and the task's done.
 
 > ## **Instructions**
-- 1. sign in
+ 1. sign in
   2. register
   0. exit
 -"you'll decide what do u want to print."
-    if 1 an error will occur because you don't have any account yet.
+- if 1 an error will occur because you don't have any account yet.
     2. register
       1. enter username
       2. enter password
 -"Since you typed your desired username and password, your account is finally created."
-   1. sign in
+    1. sign in
       1. enter username
       2. enter password
 - after inputing correct username it will ask you if you want to add task or not.
