@@ -1,6 +1,6 @@
 # **To-Do Organizer**
 
-- ### Ilalagay dito ang brief background about sa system
+- ### This system is about organizing task that you want to do. You will earn points just by doing the task. Who knows, maybe you can climb your ranked too.
 
 > ## **Main.py**
 
