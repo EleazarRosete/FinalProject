@@ -63,9 +63,9 @@ Then options will show to help you organize the task.
 
 - And, if you don't want to do or add task anymore you can just exit the program with ease.
       
-> ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
+> ## [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
 
-> ### **UML Diagram**
+> ## **UML Diagram**
 | Main.py |...|
 |:---|:--:|
 |Variables| choice|
