@@ -17,9 +17,9 @@
 
 > ## **Instructions**
 
-  - 1. sign in
-  - 2. register
-  - 0. exit
+    - 1. sign in
+    - 2. register
+    - 0. exit
 
     - Select Register to make an account if you don't have one.
 
