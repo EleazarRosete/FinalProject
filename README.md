@@ -16,32 +16,52 @@
 
 
 > ## **Instructions**
+
 **TO-DO ORGANIZER!**
-    - 1. sign in
-    - 2. register
-    - 0. exit
 
-      - Select Register to make an account if you don't have one.
+Starts by asking the user to Log in the system.
 
-      - Select Sign in if you'd already have an account.
+    - 1. Sign in
+    - 2. Register
+    - 0. Exit
+- Select Register to make an account if you don't have one.
 
-The system will ask you if you want to add task or not
+- Select Sign in if you'd already have an account.
 
-    - yes
-    - no
+The system will ask you if you want to add task or not.
+
+    - Do you want to Add Task?
+        - 1. Yes
+        - 2. No
   
-If you choose "No", An overview of the system will showup with different option to choose.
+- If you choose "No", An overview of the system will showup with different option to choose.
 
-If you choose "Yes", An overview will also showup but, it will show the task you input. 
-  - Options :
+- If you choose "Yes", you'll enter a task and the system will ask you again if you want to add task.
+
+Then options will show to help you organize the task.
+
+    - Options:
       - 1. Add Task
       - 2. Do Task
       - 3. Finished Task
       - 4. Show User Info
       - 0. Exit
 
-And, if you don't want to do or add task anymore you can just exit the program with ease.
-  
+- If you choose "Add Task" another options to choose whether you want to: 
+    
+        - 1. Add a Task
+        - 2. Re-write a Task
+        - 3. Remove a Task
+
+    - If you choose "Add a Task", you will add more task.
+    - If you choose "Re-write a Task", you will edit a certain task.
+    - If you choose "Delete a Task", you will remove a certain task.
+
+- If you choose "Do Task", you will choose a task in task list to do it.
+- If you choose "Finished Task", you've finished the task and you want to put it in finished task to gain points and rank up from "Undergraduate to Doctoral".
+- If you choose to "Show User Info", your username, password, gain points, current rank and accomplished task will be displayed.
+
+- And, if you don't want to do or add task anymore you can just exit the program with ease.
       
 - ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
 
