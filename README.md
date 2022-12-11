@@ -80,6 +80,11 @@ Then options will show to help you organize the task.
 |:---|:--:|
 |Class| user, stats(user)|
 
+> ## **Rating**
+
+10/10 is the group rate not just by the group members but also some of our classmates. OOP is used in the system a lot of functions to run the system. The idea was so good and the system can helps a lot of people especially students and employers who find their self struggling in making a their works. 
+
+
 > ## **Contributors**
 
 | Name | Contibutions |
