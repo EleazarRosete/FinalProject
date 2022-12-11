@@ -24,6 +24,21 @@
 
 - ### [**UML Diagram**](https://lucid.app/lucidchart/319bacc5-9e9e-4cff-b128-ed08851dd2a8/edit?view_items=U_EpCjbWtDTw&invitationId=inv_1b4e0710-e6ff-4243-89e6-07634ff6831b)
 
+- ### **UML Diagram**
+| Main.py |...|
+|:---|:--:|
+|Variables| choice|
+| Functions | calling functions from Process.py|
+
+| Process.py |...|
+|:---|:--:|
+|Variables| task, inProgress, done, usernames, passwords, User, Pass, rank , totalPoints|
+| Functions | Account(), login(), register(), Rank(), showInfo(), option(), show(), sizeOfList(), AddTask(), deleteTask(), AddInProgress(), AddDone()|
+
+| Person.py |...|
+|:---|:--:|
+|Class| user, stats(user)|
+
 > ## **Contributors**
 
 | Name | Contibutions |
