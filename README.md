@@ -17,10 +17,11 @@
 > ## **Instructions**
   1. sign in
   2. register
-  0. exit
+     exit
 
--"Select Register to make an account if you don't have one."
--"Select Sign in if you'd already have an account."
+-Select Register to make an account if you don't have one.
+
+-Select Sign in if you'd already have an account.
       
 - ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
 
