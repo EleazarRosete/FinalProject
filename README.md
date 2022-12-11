@@ -4,7 +4,7 @@
 
 > ## **Main.py**
 
-- #### Will get manipulate all the functions needed to run the system
+- #### Will call and manipulate all the functions needed to run the system
 
 > ## **Process.py**
 
