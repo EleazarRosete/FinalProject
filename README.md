@@ -20,7 +20,7 @@
 "- student" 
 "- employee"
 
-- ### [**To-Do Organizer Video Presentation**](https://drive.google.com/drive/folders/180RROyKphQ2C3x-ON-xk4D44T_NXNfex?usp=share_link)
+- ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
 
 - ### [**UML Diagram**](https://lucid.app/lucidchart/319bacc5-9e9e-4cff-b128-ed08851dd2a8/edit?view_items=U_EpCjbWtDTw&invitationId=inv_1b4e0710-e6ff-4243-89e6-07634ff6831b)
 
