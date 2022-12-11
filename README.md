@@ -14,21 +14,24 @@
 
 - #### Holds the User's username and password as well as displaying the user's stats like user name, user password, user points, user ranks and the task's done.
 
+
 > ## **Instructions**
-  1. sign in
-  2. register
-     exit
 
--Select Register to make an account if you don't have one.
+  - 1. sign in
+  - 2. register
+  - 0. exit
 
--Select Sign in if you'd already have an account.
+    - Select Register to make an account if you don't have one.
+
+    - Select Sign in if you'd already have an account.
 
 The system will ask you if you want to add task or not
 
--yes
--no
-
+    - yes
+    - no
+  
 If you choose "No", An overview of the system will showup with different option to choose.
+
 If you choose "Yes", An overview will also showup but, it will show the task you input. 
   
 And, if you don't want to do or add task anymore you can just exit the program with ease.
