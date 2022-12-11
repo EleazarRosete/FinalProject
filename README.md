@@ -21,9 +21,9 @@
     - 2. register
     - 0. exit
 
-    - Select Register to make an account if you don't have one.
+        - Select Register to make an account if you don't have one.
 
-    - Select Sign in if you'd already have an account.
+        - Select Sign in if you'd already have an account.
 
 The system will ask you if you want to add task or not
 
