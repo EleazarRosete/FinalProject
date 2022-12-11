@@ -22,8 +22,6 @@
 
 - ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
 
-- ### [**UML Diagram**](https://lucid.app/lucidchart/319bacc5-9e9e-4cff-b128-ed08851dd2a8/edit?view_items=U_EpCjbWtDTw&invitationId=inv_1b4e0710-e6ff-4243-89e6-07634ff6831b)
-
 - ### **UML Diagram**
 | Main.py |...|
 |:---|:--:|
