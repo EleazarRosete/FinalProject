@@ -4,7 +4,7 @@
 
 > ## **Main.py**
 
-- #### will get and manipulate all the functions needed to run the system
+- #### will get manipulate all the functions needed to run the system
 
 > ## **Process.py**
 
@@ -20,8 +20,15 @@
      exit
 
 -Select Register to make an account if you don't have one.
-
 -Select Sign in if you'd already have an account.
+
+  The system will ask you if you want to add task or not
+  -yes
+  -no
+  
+  if you choose "No", An overview of the system will showup with different option to choose.
+  if you choose "Yes", An overview will also showup but, it will show the task you input. 
+  
       
 - ### [**To-Do Organizer Video Presentation**](https://youtu.be/dp9IYkGYEF0)
 
