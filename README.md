@@ -90,6 +90,6 @@ Then options will show to help you organize the task.
 | Name | Contibutions |
 |:---| :---|
 | Eleazar Rosete | Create Code |
-| Errol Villanueva | Polish Codes |
+| Errol  Ebuenga | Polish Codes |
 | Mykel Cruz | Polish Codes |
 | Ivan Ebora | Polish Codes |
